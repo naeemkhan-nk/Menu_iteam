@@ -1,0 +1,75 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+#main_manu{
+    background: #48c9b0;
+    
+}
+
+#main_manu ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+   
+    
+    
+}
+
+#main_manu li{
+    display: inline-block;
+    position: relative;
+   
+}
+
+#main_manu li a{
+    display: block;
+    text-decoration: none;
+    padding: 12px 15px;
+    
+
+
+    
+}
+#main_manu li a:hover{
+    background: rgb(133, 116, 116);
+
+}
+
+#main_manu ul ul{
+    position: absolute;
+    background: #d5d8dc;
+    display: none;
+}
+
+
+
+#main_manu ul ul li{
+    display: block;
+}
+
+#main_manu ul li:hover ul{
+    display: block;
+    
+}
+#main_manu ul li:hover a{
+    background: rgb(133, 116, 116);
+
+}
+#main_manu ul li:hover li a{
+    background: #d5d8dc;
+
+}
+#main_manu ul ul li a:hover{
+    background: rgb(107, 178, 178);
+    
+
+}
+
+
+
+
+
+
+
